@@ -60,7 +60,8 @@
           ]
         },
         "Result": {
-          "heading": "entries[0].content.directory"
+          "heading": "entries[0].content.directory",
+          "summary": "summary",
           "fields": [
             {
               "label": "Stellar yields (table)",
