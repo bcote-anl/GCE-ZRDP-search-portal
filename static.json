@@ -51,25 +51,25 @@
           "fields": [
             {
               "label": "Stellar yields (table)",
-              "property": "entries[0].content.project_metadata.table"
+              "property": "entries[0].content.table"
             },
             {
               "label": "Star formation efficiency (sfe)",
-              "property": "entries[0].content.project_metadata.sfe"
+              "property": "entries[0].content.sfe"
             }
           ]
         },
         "Result": {
-          "heading": "entries[0].content.project_metadata.directory",
-          "summary": "entries[0].content.subtitle",
+          "heading": "entries[0].content.directory",
+          "summary": "entries[0].content.directory",
           "fields": [
             {
               "label": "Stellar yields (table)",
-              "property": "entries[0].content.project_metadata.table"
+              "property": "entries[0].content.table"
             },
             {
               "label": "Star formation efficiency (sfe)",
-              "property": "entries[0].content.project_metadata.sfe"
+              "property": "entries[0].content.sfe"
             }
           ]
         }
