@@ -8,8 +8,8 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "Search | RPL@APS",
-        "description": "This is the RPL project. Raf should fill in some details here!"
+        "title": "Search | GCE ZRDP Search Portal",
+        "description": "This is an instance of the Globus ZRDP for the GCE astronomy prototype"
       },
       "features": {
         "jsonata": true
@@ -31,7 +31,7 @@
         }
       },
       "content": {
-        "headline": "RPL@APS"
+        "headline": "GCE ZRDP Search Portal"
       },
       "components": {
         "Footer": {
@@ -50,73 +50,26 @@
         "ResultListing": {
           "fields": [
             {
-              "label": "Target Color",
-              "property": "entries[0].content.project_metadata.target_color",
-              "type": "rgba"
+              "label": "Stellar yields (table)",
+              "property": "entries[0].content.project_metadata.table"
             },
             {
-              "label": "Time to Best",
-              "property": "entries[0].content.project_metadata.time_to_best"
-            },
-            {
-              "label": "Best Color",
-              "property": "entries[0].content.project_metadata.best_so_far",
-              "type": "rgba"
-            },
-            {
-              "label": "Total Time",
-              "property": "entries[0].content.project_metadata.total_time"
+              "label": "Star formation efficiency (sfe)",
+              "property": "entries[0].content.project_metadata.sfe"
             }
           ]
         },
         "Result": {
-          "heading": "entries[0].content.project_metadata.experiment",
+          "heading": "entries[0].content.project_metadata.directory",
           "summary": "entries[0].content.subtitle",
           "fields": [
             {
-              "label": "Target Color",
-              "property": "entries[0].content.project_metadata.target_color",
-              "type": "rgba"
+              "label": "Stellar yields (table)",
+              "property": "entries[0].content.project_metadata.table"
             },
             {
-              "label": "Best Color",
-              "property": "entries[0].content.project_metadata.best_so_far",
-              "type": "rgba"
-            },
-            {
-              "label": "Time to Best",
-              "property": "entries[0].content.project_metadata.time_to_best"
-            },
-            {
-              "label": "Total Time",
-              "property": "entries[0].content.project_metadata.total_time"
-            },
-            {
-              "label": "Convergence Graph",
-              "property": "$replace(entries[0].content.files[filename='convergence_graph.png'].url, 'https://bb8d048a-2cad-4029-a9c7-671ec5d1f84d.e.globus.org', 'https://g-cd34a.fd635.8443.data.globus.org')",
-              "type": "image"
-            },
-            {
-              "label": "Plate 1",
-              "property": "$replace(entries[0].content.files[filename='plate_1.jpg'].url, 'https://bb8d048a-2cad-4029-a9c7-671ec5d1f84d.e.globus.org', 'https://g-cd34a.fd635.8443.data.globus.org')",
-              "type": "image"
-            },
-            {
-              "label": "Plate 2",
-              "property": "$replace(entries[0].content.files[filename='plate_2.jpg'].url, 'https://bb8d048a-2cad-4029-a9c7-671ec5d1f84d.e.globus.org', 'https://g-cd34a.fd635.8443.data.globus.org')",
-              "type": "image"
-            },
-            {
-              "label": "Solver",
-              "property": "entries[0].content.project_metadata.solver"
-            },
-            {
-              "label": "Workflow Steps",
-              "property": "entries[0].content.project_metadata.wf_steps"
-            },
-            {
-              "label": "Runs",
-              "property": "entries[0].content.project_metadata.runs"
+              "label": "Star formation efficiency (sfe)",
+              "property": "entries[0].content.project_metadata.sfe"
             }
           ]
         }
