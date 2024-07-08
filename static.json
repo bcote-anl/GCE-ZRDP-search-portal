@@ -81,12 +81,8 @@
         "search": {
           "index": "cb2e5415-b5ee-49b0-b46d-3b33d44757a3",
           "facets": [
-            {
-              "name": "Creator",
-              "field_name": "dc.creators.creatorName",
-              "type": "terms",
-              "size": 10
-            }
+            {"name": "Table", "field_name": "table"},
+            {"name": "SFE", "field_name": "sfe"}
           ]
         }
       }
