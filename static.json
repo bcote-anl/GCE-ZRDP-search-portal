@@ -91,7 +91,7 @@
               "name": "SFE",
               "field_name": "sfe",
               "type": "terms",
-              "size": 10
+              "size": 40
             }
           ]
         }
